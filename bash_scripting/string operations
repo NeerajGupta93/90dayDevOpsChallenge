@@ -1,0 +1,16 @@
+myvar="My name is Neeraj Gupta"
+myvarlength=${#myvar}
+echo "$myvar"
+echo "My sentence length is $myvarlength"
+echo "${myvar^^}"
+echo "${myvar,,}"
+newvar=${myvar/Neeraj/Niraj}
+echo "$newvar"
+echo "${myvar:0:7}"
+/////output////
+My name is Neeraj Gupta
+My sentence length is 23
+MY NAME IS NEERAJ GUPTA
+my name is neeraj gupta
+My name is Niraj Gupta
+My name

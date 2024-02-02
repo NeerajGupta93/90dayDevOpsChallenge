@@ -2,3 +2,16 @@ a=10
 name="Neeraj" (within parenthesis)
 age=29
 echo "The age of $name is $age"
+
+=====
+cmd output as a variable
+
+Hostname=$(hostname)
+Pwd=$(pwd)
+
+echo "The hostname of this machine is $Hostname and path is $Pwd"
+
+=====
+contant variable that can not be changed 
+readonly college=NITM
+echo "college name is $college"

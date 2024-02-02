@@ -1,0 +1,23 @@
+myArray=( 1 2 3 4 "Neeraj" )
+
+echo "${myArray[*]}"
+echo "${myArray[3]}"
+echo "${#myArray[*]}"
+echo "${myArray[*]:1}"
+echo "${myArray[*]:1:3}"
+myArray+=( 34 35 )
+echo "${myArray[*]}"
+////////output//////
+1 2 3 4 Neeraj
+4
+5
+2 3 4 Neeraj
+3 4
+1 2 3 4 Neeraj 34 35
+/////////updating arrays////
+myArray+=( 34 34 )
+////////declaring arrays/////
+myArray=( [name]=Neeraj [age]=29 )
+echo "My name is ${myArray[name]}"
+
+

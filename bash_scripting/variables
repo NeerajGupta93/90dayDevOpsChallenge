@@ -1,0 +1,4 @@
+a=10
+name="Neeraj" (within parenthesis)
+age=29
+echo "The age of $name is $age"

@@ -1,0 +1,15 @@
+echo "Please type your name"
+read "name"
+echo "Please type your age"
+read age
+echo "Your name is $name and your age is $age"z
+read -p "Type your name again " name
+echo "Your name is $name"
+///output///
+Please type your name
+Neeraj 
+Please type your age
+29
+Your name is Neeraj and your age is 29
+Type your name again! Neeraj Gupta
+Your name is Neeraj Gupta
